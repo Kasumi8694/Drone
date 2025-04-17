@@ -1,0 +1,22 @@
+# Ignore Python junk
+__pycache__/
+*.pyc
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
+
+# OS-specific stuff
+.DS_Store
+
+# Ignore SSH/private keys
+*.pem
+*.key
+*.pub
+id_ed25519
+id_ed25519.pub
+
+# Env/config secrets (if used)
+.env
